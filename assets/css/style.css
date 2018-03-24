@@ -566,16 +566,61 @@ footer
 
 /*fixing the nav bar*/
 
-@media screen and (max-width: 260px)
+@media screen and (max-width: 560px)
 {
     .nav
     {
         float: none;
-        display: none;
+        display: block;
+        width: 100%;
+        align-content: center;
+        position: absolute;
+        bottom: 0px;
+        padding: 13px 10px 7px;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+        
     }
+
+    .navigation
+
+    {
+        padding: 10px;
+    }
+
+    .navigationV2
+
+    {
+        padding: 10px;
+    }
+
+
+    .span
+    {
+        float: none;
+        display: block;
+        text-align: center;
+        margin: auto;
+
+
+    }
+
+    header
+
+    {
+        height: 126px;
+        align-content: center
+    }
+
+    ul 
+    {
+        align-content: center;
+    }
+
 }
 
-/*making sure the gallery section snap down, the width is determined by the width of a gallery item*/
+/*making sure the gallery and bioBox sections snap down, the  gallery width is determined by the width of a gallery item*/
 
 
 @media screen and (max-width: 960px)
@@ -583,7 +628,67 @@ footer
     .gallery
     {
         width: 445px;
+        margin: none 10px;
+    }
+
+    .bioBox
+    {
+        width: 800px;
+        margin: none 10px;
+    }
+
+}
+
+@media screen and (max-width: 871px)
+{
+    .bioBox
+    {
+        width: 700px;
+        margin: none 10px;
     }
 }
 
+@media screen and (max-width: 774px)
+{
+    .bioBox
+    {
+        width: 600px;
+        margin: none 10px;
+    }
+}
 
+@media screen and (max-width: 673px)
+{
+    .bioBox
+    {
+        width: 500px;
+        margin: none 10px;
+    }
+}
+
+@media screen and (max-width: 573px)
+{
+    .bioBox
+    {
+        width: 400px;
+        margin: none 10px;
+    }
+}
+
+@media screen and (max-width: 473px)
+{
+    .bioBox
+    {
+        width: 300px;
+        margin: none 10px;
+    }
+}
+
+@media screen and (max-width: 373px)
+{
+    .bioBox
+    {
+        width: 200px;
+        margin: none 10px;
+    }
+}
