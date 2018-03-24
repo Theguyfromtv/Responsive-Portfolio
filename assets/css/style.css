@@ -1,0 +1,589 @@
+/*I made the whole thing a little marvel comics themed cause that's what I felt like at the moment*/
+
+/*now this is a story all about how all the header content lives here*/
+
+header
+{
+    background-color: black;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: #7f7f7f;
+
+}
+
+/*this is to make sure the content in the header alignes to the rest of the site*/
+
+#headerContent
+
+{
+    max-width: 960px;
+    margin: auto;
+
+}
+
+/*this is the main logo, it's the class of the anchor tag so that the whole area would be*/
+
+
+.span
+{
+    display:inline-block;
+    color: white;
+    background-color: #a72917;
+    float: left;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 31px 36px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*this is the main logo hover interaction*/
+
+
+.span:hover
+{
+    color: #a72917;
+    background-color: white;
+}
+
+/*this is the navigation bar*/
+
+.nav
+{
+    
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right;
+    padding: 40px 0;
+    color: #aab1c5;
+   
+    
+    
+}
+/*making sure the list stays inline (and ONLY tat list)*/
+
+.nav li
+
+{
+    display: inline;
+}
+
+/*these are the navigation elements, link properties, and animations same as with the ligi it's done via a combination of the text tag and anchor tag in order to make whole area clickable*/
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.navigation
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 37px 18px;
+    border-style: none solid none none;
+    border-width: 0px 1px;
+    border-color: #7f7f7f;
+    position: relative;
+    top: -3px;
+
+}
+
+.navigation:active
+{
+    background-color: white;
+    color: #a72917;
+}
+
+.navigation:hover
+{
+    color: white;
+    background-color:  #a72917;
+    
+}
+
+.navigationV2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 37px 18px;
+    border-style: none none none none;
+    border-width: 0px 1px;
+    border-color: #f3f3f3; 
+    position: relative;
+    top: -3px; 
+   
+}
+
+.navigationV2:hover
+{
+    color: white;
+    background-color:  #a72917;
+}
+
+/*background lives here*/
+
+body
+{
+    background-image: url('../images/marvelBackground.png');
+
+}
+
+/*sub heading lives here*/
+
+h2
+{
+    font-size: 28px;
+    color: #a72917;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-style: none none solid none;
+    padding: 20px 0px 30px;
+    margin: 0px 0px 30px 0px;
+    border-bottom-color: #e1e1e1;
+    border-bottom-width: 3px;
+}
+
+/*main page content lives here*/
+
+section
+{
+    max-width: 890px;
+    padding: 35px;
+    background: white;
+    margin: 60px auto 170px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+/*clearfixing all main section*/
+
+.group:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bioBox:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*about me page content starts here*/
+
+/*about me photo*/
+
+.bio
+{
+    display: inline;
+    height: 200px;
+    width: auto;
+    float: left;
+    padding: 7px 30px 30px 0px;
+
+}
+
+/*about me text*/
+
+p
+{
+    display: inline;
+    color: #bcbcbc;
+    font-size: 18px;
+    line-height: 200%;
+    width: 890px;
+    overflow: hidden;
+    align-content: flex-start; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/*portfolio gallery- I wanted to make the text appear only on mouse-over, so I'm creating a hidden div for it, under the class example. had to seperate it to 5 diff classes to make sure they work individually*/
+
+/*want the portfolio images to have extra margin in the section*/
+
+.imageBox
+{
+    margin: 0px 0px;
+}
+
+.example1
+{
+    display: inline-block;
+    height: 287px;
+    width: 425px;
+    position: relative;
+
+}
+
+.example1 img
+{
+    display: inline-block;
+    float: left;
+    height: 287px;
+    width: 425px;
+    object-fit: cover;
+}
+.example2
+{
+    display: inline-block;
+    height: 287px;
+    width: 425px;
+    position: relative;
+
+}
+
+.example2 img
+{
+    display: inline-block;
+    float: left;
+    height: 287px;
+    width: 425px;
+    object-fit: cover;
+}
+.example3
+{
+    display: inline-block;
+    height: 287px;
+    width: 425px;
+    position: relative;
+
+}
+
+.example3 img
+{
+    display: inline-block;
+    float: left;
+    height: 287px;
+    width: 425px;
+    object-fit: cover;
+}
+.example4
+{
+    display: inline-block;
+    height: 287px;
+    width: 425px;
+    position: relative;
+
+}
+
+.example4 img
+{
+    display: inline-block;
+    float: left;
+    height: 287px;
+    width: 425px;
+    object-fit: cover;
+}
+.example5
+{
+    display: inline-block;
+    height: 287px;
+    width: 425px;
+    position: relative;
+
+}
+
+.example5 img
+{
+    display: inline-block;
+    float: left;
+    height: 287px;
+    width: 425px;
+    object-fit: cover;
+}
+
+/*this is the text, it's supposed to only appear on hover, had to seperate the classes to make sure only that specific image's text appears*/
+
+h4
+{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.exampleTitleBox1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 425px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example1:hover .exampleTitleBox1
+{
+    visibility: visible;
+}
+
+.exampleTitleBox2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 425px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example2:hover .exampleTitleBox2
+{
+    visibility: visible;
+}
+
+.exampleTitleBox3
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 425px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example3:hover .exampleTitleBox3
+{
+    visibility: visible;
+}
+
+.exampleTitleBox4
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 425px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example4:hover .exampleTitleBox4
+{
+    visibility: visible;
+}
+.exampleTitleBox5
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 425px;
+    left: 0%;
+    top: 40%;
+    background: #a72917;
+    opacity: 0.75;
+    visibility: hidden;
+    
+}
+
+
+
+.example5:hover .exampleTitleBox5
+{
+    visibility: visible;
+}
+
+/*Making padding for portfolio images*/
+
+.portfolioImage
+{
+    padding: 10px;
+    float: left;
+}
+
+/*Contact page starts here*/
+/*form element*/
+
+.form
+{
+    max-width: 605px;
+    color: #bcbcbc;
+    position: relative;
+    right: 142.5px;
+    margin: 60px auto 170px ; 
+    
+}
+
+
+/*this next part was copied and modified, not written from scratch by me*/
+/* Style inputs, select elements and textareas */
+input[type=text], textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    
+}
+
+textarea
+{
+    margin: 0px 0px 10px;
+}
+  
+input::placeholder
+{
+    color: #bcbcbc;
+    font-size: 18px;
+
+}
+
+textarea::placeholder
+{
+    color: #bcbcbc;
+    font-size: 18px;
+
+}
+  /* Style the label to display next to the inputs */
+label 
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+  /* Style the submit button */
+input[type=submit] 
+{
+    background-color: #a72917;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/*social box*/
+
+.social
+{
+    width: 190px;
+    margin: 0px auto 170px 75px;
+    position: absolute;
+    top: 0;
+    left: 675px;
+    padding: 35px 10px;
+}
+
+.socialPhoto
+{
+    height: 60px;
+}
+
+h3
+{
+    font-size: 28px;
+    color: #a72917;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-style: none none solid none;
+    padding: 20px 0px 30px;
+    margin: 0px 0px 30px 0px;
+    border-bottom-color: #e1e1e1;
+    border-bottom-width: 3px; 
+}
+
+/*Form thank you page*/
+
+.thankYou 
+{
+    max-width: 605px;
+}
+
+/*It's footertime!!!!*/
+
+footer
+{
+    background: #7f7f7f;
+    padding: 50px;
+    text-align: center;
+    border-style: solid none none none;
+    border-width: 10px;
+    border-color: #a72917;
+}
+
+.footer
+{
+    font-size: 10px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    width: 850px;
+}
+
+/*fixing the nav bar*/
+
+@media screen and (max-width: 260px)
+{
+    .nav
+    {
+        float: none;
+        display: none;
+    }
+}
+
+/*making sure the gallery section snap down, the width is determined by the width of a gallery item*/
+
+
+@media screen and (max-width: 960px)
+{
+    .gallery
+    {
+        width: 445px;
+    }
+}
+
+
