@@ -620,7 +620,7 @@ footer
 
 }
 
-/*making sure the gallery and bioBox sections snap down, the  gallery width is determined by the width of a gallery item*/
+/*making sure the gallery bioBox  and form pages and sections snap down, the  gallery width is determined by the width of a gallery item*/
 
 
 @media screen and (max-width: 960px)
@@ -635,6 +635,23 @@ footer
     {
         width: 800px;
         margin: none 10px;
+    }
+
+    .social
+    {
+        position: initial;
+        display: block;
+        margin: auto auto;
+    
+    }
+
+    .form
+    {
+        max-width: 445;
+        margin: auto auto;
+        position: initial;
+        margin: 35px auto;
+
     }
 
 }
@@ -657,6 +674,14 @@ footer
     }
 }
 
+@media screen and (max-width: 677px)
+{
+    .form
+    {
+        max-width: 500px;
+    }
+}
+
 @media screen and (max-width: 673px)
 {
     .bioBox
@@ -673,7 +698,99 @@ footer
         width: 400px;
         margin: none 10px;
     }
+    .form
+    {
+        max-width: 400px;
+    }
 }
+
+@media screen and (max-width:526px)
+{
+    .portfolioImage
+    {
+        padding: 5px;
+    }
+
+    .example1
+    {
+        max-width: 300px;
+    }
+
+    .example1 img
+    {
+        max-width: 300px;
+    }
+
+    .exampleTitleBox1
+    {
+        max-width: 300px;
+    }
+    .example2
+    {
+        max-width: 300px;
+    }
+
+    .example2 img
+    {
+        max-width: 300px;
+    }
+
+    .exampleTitleBox2
+    {
+        max-width: 300px;
+    }   
+    .example3
+    {
+        max-width: 300px;
+    }
+
+    .example3 img
+    {
+        max-width: 300px;
+    }
+
+    .exampleTitleBox3
+    {
+        max-width: 300px;
+    }   
+    .example4
+    {
+        max-width: 300px;
+    }
+
+    .example4 img
+    {
+        max-width: 300px;
+    }
+
+    .exampleTitleBox4
+    {
+        max-width: 300px;
+    }    
+    .example5
+    {
+        max-width: 300px;
+    }
+
+    .example5 img
+    {
+        max-width: 300px;
+    }
+
+    .exampleTitleBox5
+    {
+        max-width: 300px;
+    }
+
+    .gallery
+    {
+        max-width: 300px;
+        align-content: center;
+    }
+}
+
+
+
 
 @media screen and (max-width: 473px)
 {
@@ -681,6 +798,19 @@ footer
     {
         width: 300px;
         margin: none 10px;
+    }
+
+    .bio 
+    {
+        padding: 0;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    .form
+    {
+        max-width: 300px;
     }
 }
 
