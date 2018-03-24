@@ -689,6 +689,11 @@ footer
         width: 500px;
         margin: none 10px;
     }
+
+    .thankYou
+    {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 573px)
@@ -702,6 +707,13 @@ footer
     {
         max-width: 400px;
     }
+
+    .thankYou
+    {
+        width: 400px;
+    }
+
+
 }
 
 @media screen and (max-width:526px)
@@ -812,6 +824,12 @@ footer
     {
         max-width: 300px;
     }
+
+    .thankYou
+    {
+        width: 300px;
+    }
+
 }
 
 @media screen and (max-width: 373px)
