@@ -552,7 +552,9 @@ footer
     text-align: center;
     border-style: solid none none none;
     border-width: 10px;
-    border-color: #a72917;
+    border-color: #a72917;    
+    position: fixed;
+
 }
 
 .footer
